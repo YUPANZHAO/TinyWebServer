@@ -13,6 +13,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <sys/mman.h>
+#include <errno.h>
 #include <stdarg.h>
 #include "../CGImysql/sql_connection_pool.h"
 #include "../lock/locker.h"
